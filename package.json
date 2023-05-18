@@ -1,0 +1,53 @@
+{
+  "name": "portfox",
+  "version": "0.1.0",
+  "description": "portfox",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gituhb.com/web3templates/nextly-template"
+  },
+  "keywords": [
+    "nextjs",
+    "tailwindcss",
+    "free"
+  ],
+  "author": "Surjith S M",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/css": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^1.0.6",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "next": "^13.4.1",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "webpack": "^5.82.0"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.11.0",
+    "autoprefixer": "^10.4.14",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-twin": "^1.1.0",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "twin.macro": "^3.3.1"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion",
+      "includeClassNames": true
+    }
+  },
+  "main": "babelrc.js"
+}
